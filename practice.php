@@ -30,3 +30,26 @@ $calendar = [
   "December" => "12月"
 ];
 echo $calendar["December"];
+$name = YAMATO;
+if ($name == YAMATO) {
+  echo "私は YAMATO です。";
+} else {
+  echo "YAMATOではありません。";
+}
+
+
+echo $total;
+for ($i = 0; $i <= 1000; $i++) {
+  $total += $i;
+}
+echo $total;
+$fluits = array("apple", "orange", "lemon", "banana", "grape");
+foreach ($fluits as $furuit) {
+  echo "要素は" . $furuit;
+}
+$start = 1;
+$end = 100;
+for($i = $start; $i < $end; $i++) {
+  if($i % 5 == 0) 
+    echo $i;
+}
